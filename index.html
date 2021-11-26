@@ -1,0 +1,66 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Guía Rápida Rec. contraseña en Windows (Deshabilitar Utilman)</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="WINDOWS_CLAVE_PROCESO2"
+                  title="Guía Rápida Rec. contraseña en Windows (Deshabilitar Utilman)"
+                  environment="web"
+                  feedback-link="Enlace github para los issue">
+    
+      <google-codelab-step label="Página 1" duration="2">
+        <h2 is-upgraded>Lo que haremos será reforzar uno de los <em>&#34;trucos&#34;</em>, que aún tenemos disponible en Windows. Cuando no sabemos la clave de usuario y queremos cambiarla. A través de la modificación de la utilidad <em>&#34;Utilman.exe&#34;</em>.</h2>
+<ul>
+<li>Primero arrancamos con un <em>CD instalación de Windows</em>, podríamos también crear un <em>&#34;USB arrancable&#34;</em> o con un <em>&#34;LiveCD Linux&#34;</em>.<br><br><ul>
+<li>Arrancamos y nos dirigimos a <em>Reparar equipo</em> → <em>Solucionar problemas</em> → <em>Símbolo del sistema</em>. Nos abre un terminal.</li>
+</ul>
+</li>
+</ul>
+<p class="image-container"><img alt="Foto5_WClave2" src="img/342732c15a94b09c.jpg"></p>
+<ul>
+<li>En la Terminal, tenemos que irnos a la carpeta <em>&#34;System32&#34;</em>. Aquí están las herramientas de <strong>Accesibilidad</strong>; entre ellas <em>&#34;Utilman.exe&#34;</em>. Cambiamos de unidad donde tengamos instalado <em>Windows</em>. En mi caso es la unidad <strong>D:</strong> Casi siempre será <strong>C:</strong></li>
+</ul>
+<aside class="special"><p><strong>cd Windows\System32</strong></p>
+</aside>
+<p class="image-container"><img alt="Foto6_WClave2" src="img/c06cb55be9569beb.jpg"></p>
+<ul>
+<li>Buscaremos el archivo <em>&#34;Utilman.exe&#34;</em>.<br>Si queremos conservarlo para habilitarlo de nuevo en el futuro. Le pondremos un nombre que nos lo haga recordar, sino simplemente renombramos por cualquier cosa. Que deje también de ser un <em>&#34;.exe&#34;</em>. Nos quedaría algo así.</li>
+</ul>
+<p class="image-container"><img alt="Foto7_WClave2" src="img/590606180a0e41e3.jpg"></p>
+<aside class="special"><p>Reiniciamos el equipo y comprobaremos si, efectivamente. Ya no se ejecuta el fichero al darle a la opción de <strong>&#34;Accesibilidad&#34;</strong>.</p>
+</aside>
+<p><a href="https://vimeo.com/648339815" target="_blank">Enlace al video-demostracion de la resolucion</a></p>
+<aside class="warning"><p>Como añadido, en mi caso con este único paso me ha funcionado correctamente. Pero si no fuese así. Habría que gestionar los permisos del archivo <em>&#34;Utilman.exe&#34;</em>. En <em>Propiedades</em> → <em>seguridad</em> → <em>Denegar todo</em>.<br>Ya no podrán <strong>&#34;ejecutar&#34;</strong> dicho archivo.</p>
+</aside>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-11-26T20:09:39+01:00",
+  "id": "WINDOWS_CLAVE_PROCESO2",
+  "duration": 2,
+  "title": "Guía Rápida Rec. contraseña en Windows (Deshabilitar Utilman)",
+  "summary": "Guía Rápida Recuperación Contraseña Windows (Deshabilitar utilman)",
+  "source": "RECU_PASS_WINDOWS2.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "Enlace github para los issue",
+  "url": "WINDOWS_CLAVE_PROCESO2"
+}
